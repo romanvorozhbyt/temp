@@ -4,51 +4,68 @@ using DAL.Repositories;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Threading.Tasks;
+using DAL.Models;
 
 namespace DAL
 {
-    class UnitOfWork : IUnitOfWork
+    class UnitOfWork : IUnitOfWork, IDisposable
     {
         private readonly GameStoreContext _context;
 
-        private readonly Lazy<IRepository<IGameRepository>> _gameRepository;
-        private readonly Lazy<IRepository<IGenreRepository>> _genreRepository;
-        private readonly Lazy<IRepository<IPublisherRepository>> _publisherRepository;
-        private readonly Lazy<IRepository<ICommentRepository>> _commentRepository;
-        private readonly Lazy<IRepository<IPlatformRepository>> _platformRepository;
+        private IRepository<Game> _gameRepository;
+        private readonly Lazy<IRepository<Genre>> _genreRepository;
+        private readonly Lazy<IRepository<Publisher>> _publisherRepository;
+        private readonly Lazy<IRepository<Comment>> _commentRepository;
+        private readonly Lazy<IRepository<PlatformType>> _platformRepository;
 
-        public IRepository<IGameRepository> Games => _gameRepository.Value;
+        //public IRepository<Game> Games => _gameRepository.Value;
 
-        public IRepository<IGenreRepository> Genres => _genreRepository.Value;
+        public IRepository<Genre> Genres => _genreRepository.Value;
 
-        public IRepository<IPublisherRepository> Publishers => _publisherRepository.Value;
+        public IRepository<Publisher> Publishers => _publisherRepository.Value;
 
-        public IRepository<ICommentRepository> Comments => _commentRepository.Value;
+        public IRepository<Comment> Comments => _commentRepository.Value;
 
-        public IRepository<IPlatformRepository> Platforms => _platformRepository.Value;
+        public IRepository<PlatformType> Platforms => _platformRepository.Value;
+
+        public IRepository<Game> Games => _gameRepository ?? (_gameRepository = new Repository<Game>(_context));
+
 
         public UnitOfWork (DbContextOptions<GameStoreContext> options)
         {
             _context = new GameStoreContext(options);
 
-            _gameRepository = new Lazy<IRepository<IGameRepository>>(() => new Repository<GameRepository>(_context));
-            _genreRepository = new Lazy<IRepository<IGenreRepository>>(() => new GenreRepository(_context));
-            _publisherRepository = new Lazy<IRepository<IPublisherRepository>>(() => new PublisherRepository(_context));
-            _platformRepository = new Lazy<IRepository<IPlatformRepository>>(() => new PlatformRepository(_context));
-            _commentRepository = new Lazy<IRepository<ICommentRepository>>(() => new CommentRepository(_context));
-
+            //_gameRepository = new Lazy<IRepository<Game>>(() => new Repository<Game>(_context));
+            _genreRepository = new Lazy<IRepository<Genre>>(() => new Repository<Genre>(_context));
+            _publisherRepository = new Lazy<IRepository<Publisher>>(() => new Repository<Publisher>(_context));
+            _platformRepository = new Lazy<IRepository<PlatformType>>(() => new Repository<PlatformType>(_context));
+            _commentRepository = new Lazy<IRepository<Comment>>(() => new Repository<Comment>(_context));
         }
 
         public async Task SaveAsync()
         {
             await _context.SaveChangesAsync();
         }
-        public void Save() => _context.SaveChanges();
 
+        public void Save() => _context.SaveChanges();
+        private bool _disposed = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!this._disposed)
+            {
+                if (disposing)
+                {
+                    _context.Dispose();
+                    (Repository<Game>)Games.Delete(])
+                }
+            }
+            this._disposed = true;
+        }
         public void Dispose()
         {
-            _context.SaveChanges(); 
-
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
     }
 }

@@ -5,7 +5,9 @@ using System.Threading.Tasks;
 
 namespace DAL.Abstarction
 {
-    public interface IRepository<T> where T : class
+    
+
+    public interface IRepository<T>  where T : class
     {
         void Insert(T item);
         Task InsertAsync(T item);
@@ -19,7 +21,6 @@ namespace DAL.Abstarction
         IEnumerable<T> GetAll();
         Task<IEnumerable<T>> GetAllAsync();
 
-        void Delete(int id);
-        Task DeleteAsync(int id);
+        void Delete(int id);        
     }
 }

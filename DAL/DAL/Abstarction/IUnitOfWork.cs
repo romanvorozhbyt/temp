@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
+using DAL.Models;
 
 namespace DAL.Abstarction
 {
-    public interface IUnitOfWork : IDisposable
+    public interface IUnitOfWork 
     {
-        IRepository<IGameRepository> Games { get; }
-        IRepository<IGenreRepository> Genres { get; }
-        IRepository<IPublisherRepository> Publishers { get; }
-        IRepository<ICommentRepository> Comments { get; }
-        IRepository<IPlatformRepository> Platforms { get; }
+        IRepository<Game> Games { get; }
+        IRepository<Genre> Genres { get; }
+        IRepository<Publisher> Publishers { get; }
+        IRepository<Comment> Comments { get; }
+        IRepository<PlatformType> Platforms { get; }
         Task SaveAsync();
         void Save();
 

@@ -13657,26 +13657,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roman_Vorozhbyt\\.nuget\\packages\\": {},
+    "C:\\Users\\roman\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\Vorozhbyt\\VSProjects\\GameStore\\GameStoreWebApp\\GameStoreWebApp.csproj",
+      "projectUniqueName": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\GameStoreWebApp\\GameStoreWebApp.csproj",
       "projectName": "GameStoreWebApp",
-      "projectPath": "D:\\Vorozhbyt\\VSProjects\\GameStore\\GameStoreWebApp\\GameStoreWebApp.csproj",
-      "packagesPath": "C:\\Users\\Roman_Vorozhbyt\\.nuget\\packages\\",
-      "outputPath": "D:\\Vorozhbyt\\VSProjects\\GameStore\\GameStoreWebApp\\obj\\",
+      "projectPath": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\GameStoreWebApp\\GameStoreWebApp.csproj",
+      "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+      "outputPath": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\GameStoreWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Roman_Vorozhbyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13689,8 +13686,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "D:\\Vorozhbyt\\VSProjects\\GameStore\\DAL\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\Vorozhbyt\\VSProjects\\GameStore\\DAL\\DAL\\DAL.csproj"
+            "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\DAL\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\DAL\\DAL\\DAL.csproj"
             }
           }
         }
@@ -13704,14 +13701,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.NETCore.App": {
-            "target": "Package",
-            "version": "2.1.0",
-            "autoReferenced": true
-          },
           "Microsoft.AspNetCore.All": {
             "target": "Package",
-            "version": "2.0.0"
+            "version": "[2.0.0, )"
+          },
+          "Microsoft.NETCore.App": {
+            "target": "Package",
+            "version": "[2.1.0, )",
+            "autoReferenced": true
           }
         },
         "imports": [

@@ -11501,26 +11501,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Roman_Vorozhbyt\\.nuget\\packages\\": {},
+    "C:\\Users\\roman\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "D:\\Vorozhbyt\\VSProjects\\GameStore\\DAL\\DAL\\DAL.csproj",
+      "projectUniqueName": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\DAL\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\Vorozhbyt\\VSProjects\\GameStore\\DAL\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Roman_Vorozhbyt\\.nuget\\packages\\",
-      "outputPath": "D:\\Vorozhbyt\\VSProjects\\GameStore\\DAL\\DAL\\obj\\",
+      "projectPath": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\DAL\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\roman\\.nuget\\packages\\",
+      "outputPath": "C:\\Study\\VSProjects\\Epam\\Temp\\temp\\DAL\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Roman_Vorozhbyt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\roman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11544,15 +11541,15 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "Microsoft.AspNetCore.App": {
+            "target": "Package",
+            "version": "[2.1.4, )"
+          },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "2.1.0",
+            "version": "[2.1.0, )",
             "autoReferenced": true
-          },
-          "Microsoft.AspNetCore.App": {
-            "target": "Package",
-            "version": "2.1.4"
           }
         },
         "imports": [

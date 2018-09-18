@@ -14,3 +14,11 @@ D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameSt
 D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\DAL.dll
 D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\DAL.pdb
 D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorTargetAssemblyInfo.cache
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.csprojAssemblyReference.cache
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.csproj.CoreCompileInputs.cache
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorAssemblyInfo.cache
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorAssemblyInfo.cs
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.AssemblyInfoInputs.cache
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.AssemblyInfo.cs
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.dll
+C:\Study\VSProjects\Epam\Temp\temp\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.pdb
