@@ -1,0 +1,11 @@
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.csprojResolveAssemblyReference.cache
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.json
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\bin\Debug\netcoreapp2.1\DAL.runtimeconfig.dev.json
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+D:\Vorozhbyt\VSProjects\GameStore\DAL\DAL\obj\Debug\netcoreapp2.1\DAL.pdb

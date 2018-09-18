@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{777CCDE2-F5AD-48CC-9243-64B3C0D93EBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameStoreWebApp", "..\GameStoreWebApp\GameStoreWebApp.csproj", "{2D59D07A-52C9-40EE-A3BB-F4AC2FEE7D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "..\BLL\BLL.csproj", "{36A147E7-2F25-45F6-82DC-A08557B24436}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777CCDE2-F5AD-48CC-9243-64B3C0D93EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777CCDE2-F5AD-48CC-9243-64B3C0D93EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777CCDE2-F5AD-48CC-9243-64B3C0D93EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777CCDE2-F5AD-48CC-9243-64B3C0D93EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D59D07A-52C9-40EE-A3BB-F4AC2FEE7D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D59D07A-52C9-40EE-A3BB-F4AC2FEE7D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D59D07A-52C9-40EE-A3BB-F4AC2FEE7D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D59D07A-52C9-40EE-A3BB-F4AC2FEE7D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A147E7-2F25-45F6-82DC-A08557B24436}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A147E7-2F25-45F6-82DC-A08557B24436}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A147E7-2F25-45F6-82DC-A08557B24436}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A147E7-2F25-45F6-82DC-A08557B24436}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A3D295E-8A4B-4875-B38A-B975E25DA9DE}
+	EndGlobalSection
+EndGlobal
