@@ -1,0 +1,9 @@
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.csprojResolveAssemblyReference.cache
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.csproj.CoreCompileInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.AssemblyInfoInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.AssemblyInfo.cs
+D:\Vorozhbyt\VSProjects\GameStore\BLL\bin\Debug\netcoreapp2.1\BLL.deps.json
+D:\Vorozhbyt\VSProjects\GameStore\BLL\bin\Debug\netcoreapp2.1\BLL.dll
+D:\Vorozhbyt\VSProjects\GameStore\BLL\bin\Debug\netcoreapp2.1\BLL.pdb
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.dll
+D:\Vorozhbyt\VSProjects\GameStore\BLL\obj\Debug\netcoreapp2.1\BLL.pdb
