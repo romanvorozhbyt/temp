@@ -1,0 +1,16 @@
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\GameStoreWebApp.deps.json
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\GameStoreWebApp.runtimeconfig.json
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\GameStoreWebApp.runtimeconfig.dev.json
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\GameStoreWebApp.dll
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\GameStoreWebApp.pdb
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.csprojResolveAssemblyReference.cache
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.csproj.CoreCompileInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.AssemblyInfoInputs.cache
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.AssemblyInfo.cs
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.dll
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.pdb
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorAssemblyInfo.cache
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorAssemblyInfo.cs
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\DAL.dll
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\bin\Debug\netcoreapp2.1\DAL.pdb
+D:\Vorozhbyt\VSProjects\GameStore\GameStoreWebApp\obj\Debug\netcoreapp2.1\GameStoreWebApp.RazorTargetAssemblyInfo.cache
